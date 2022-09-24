@@ -7,14 +7,19 @@
     <title>Jason-Davo</title>
     <link rel="stylesheet" href="./assets/css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body style="background-color:#21201c ;">
     <main>
         <div > <!--Container Wrapper-->
             <header class="mt-6 flex text-white justify-between ">
                 
-                <span class="text-lg ">Jason Davo<span class="text-yellow-500 text-2xl">.</span></span>
-                <nav class="mt-1 hidden lg:block">
+                <div class="text-lg ">Jason Davo<span class="text-yellow-500 text-2xl">.</span></div>
+                <div class="px-4 cursor-pointer md:hidden" id="hamburger">
+                    <i class="fas fa-bars  text-4xl"></i>
+                </div>
+                <nav class="mt-1 hidden lg:block" id="menu">
                     <ul class="text-white text-center grid grid-cols-6 justify-items-center " >
                         <li >
                             <a href="#about" class="text-yellow-400">About</a>
