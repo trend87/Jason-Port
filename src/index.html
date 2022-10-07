@@ -13,14 +13,19 @@
 <body style="background-color:#21201c ;">
     <main>
         <div > <!--Container Wrapper-->
-            <header class="mt-6 flex text-white justify-between ">
+            <header class="mt-6 md:flex text-white justify-between ">
                 
-                <div class="text-lg ">Jason Davo<span class="text-yellow-500 text-2xl">.</span></div>
-                <div class="px-4 cursor-pointer md:hidden" id="hamburger">
-                    <i class="fas fa-bars  text-4xl"></i>
+                <div class="text-lg flex justify-between"> 
+                    <h1>
+                        <a href="">Jason Davo</a><span class="text-yellow-500 text-2xl">.</span>
+                    </h1>
+                    <div class="px-4 cursor-pointer display-block md:hidden " id="hamBurger">
+                        <i class="fas fa-bars  text-4xl"></i>
+                    </div>
                 </div>
-                <nav class="mt-1 hidden lg:block" id="menu">
-                    <ul class="text-white text-center grid grid-cols-6 justify-items-center " >
+                
+                <nav class="mt-1 hidden lg:block " id="menu">
+                    <ul class="text-white  md:grid md:grid-cols-6 text-center" >
                         <li >
                             <a href="#about" class="text-yellow-400">About</a>
                         </li>
