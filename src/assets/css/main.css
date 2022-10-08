@@ -2,16 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--main-bg-color: #21201c;
+	--main-txt-color: blue;
+}
+
 body{
     font-family: 'Rubik', sans-serif;
     padding: 0 10%;
+	background-color: #21201c ;
 }
-
+button{
+	background-color:#FEA809;
+}
 .float{
     position:fixed;
-	width:60px;
-	height:60px;
+	width:40px;
+	height:40px;
 	bottom:40px;
 	right:40px;
 	border-radius:50px;
+}
+/* transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 */
+
+.list{
+	@apply transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
+}
+.service-card{
+	@apply flex justify-center rounded p-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105;
+}
+.portfolio-card{
+	@apply flex justify-center rounded p-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
+}
+.customers-card{
+	@apply  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-100;
+}
+.footer-links{
+	@apply  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
 }

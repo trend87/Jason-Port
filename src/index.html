@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body style="background-color:#21201c ;">
+<body >
     <main>
         <div > <!--Container Wrapper-->
             <header class="mt-6 md:flex text-white justify-between ">
                 
                 <div class="text-lg flex justify-between"> 
-                    <h1>
-                        <a href="">Jason Davo</a><span class="text-yellow-500 text-2xl">.</span>
+                    <h1 class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                        <a href="" >Jason Davo</a><span class="text-yellow-500 text-2xl">.</span>
                     </h1>
                     <div class="px-4 cursor-pointer display-block md:hidden " id="hamBurger">
                         <i class="fas fa-bars  text-4xl"></i>
@@ -25,24 +25,24 @@
                 </div>
                 
                 <nav class="mt-1 hidden lg:block " id="menu">
-                    <ul class="text-white  md:grid md:grid-cols-7 text-center" >
-                        <li >
-                            <a href="#about" class="text-yellow-400">About</a>
+                    <ul class="text-white  md:grid md:grid-cols-6 text-center " >
+                        <li class="list" >
+                            <a href="#about" class="text-yellow-400 hover:border-b-2 hover:border-gray-50">About</a>
                         </li>
-                        <li>
-                            <a href="#services" class="hover:bg-yellow-400 hover:text-black hover:rounded ">Services</a>
+                        <li class="list">
+                            <a href="#services" class="hover:border-b-2 hover:border-yellow-400 ">Services</a>
                         </li>
-                        <li>
-                            <a href="#portfolio">Portfolio</a>
+                        <li class="list">
+                            <a href="#portfolio"  class="hover:border-b-2 hover:border-yellow-400 ">Portfolio</a>
                         </li>
-                        <li>
-                            <a href="#testimonials">Testimonials</a>
+                        <li class="list">
+                            <a href="#testimonials"  class="hover:border-b-2 hover:border-yellow-400 ">Testimonials</a>
                         </li>
-                        <li>
-                            <a href="#pricing">Pricing</a>
+                        <li class="list">
+                            <a href="#pricing"  class="hover:border-b-2 hover:border-yellow-400 ">Pricing</a>
                         </li>
-                        <li>
-                            <a href="#contact">Contact</a>
+                        <li class="list">
+                            <a href="#contact"  class="hover:border-b-2 hover:border-yellow-400 ">Contact</a>
                         </li>
                         
                     </ul>
@@ -57,7 +57,7 @@
                         <h2 class="text-white font-bold text-6xl" >I'm Jason D.</h2>
                         <span class="text-white font-medium">PYTHON DEVELOPER     / UI DESIGER / FPL GURU</span>
                         <p style="color:#96968B;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi et massa scelerisque nam. Sed tristique non senectus arcu vel. Nunc porta eu mattis sit. </p>
-                        <button class="text-white p-3 mt-4 rounded" style="background-color:#FEA809;">Explore My Work</button>
+                        <button class="text-white p-3 mt-4 rounded transition duration-500 ease-in-out hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 " >Explore My Work</button>
                     </div>
 
                     <div class="flex  hidden md:block ">
@@ -82,7 +82,7 @@
 
                 <div class="mt-10 grid md:grid-cols-2 gap-3">
 
-                    <div class="flex justify-center rounded p-3" style="background-color:#2D2B29;"> <!--1st feature-->
+                    <div class="service-card" style="background-color:#2D2B29;"> <!--1st feature-->
                         <div class="bg-dark-500">
                             <img class="w-34 mr-4 rounded-md" src="images/Cup.png" alt="Cup">
                         </div>
@@ -93,7 +93,7 @@
                        </div>
                     </div> <!--End of 1st feature-->
 
-                    <div class="flex justify-center rounded p-3" style="background-color:#2D2B29;"> <!--2nd feature-->
+                    <div class="service-card" style="background-color:#2D2B29;"> <!--2nd feature-->
                         <div class="bg-dark-500">
                             <img class="w-34 mr-4 rounded-lg" src="images/Frame-2.png" alt="Frame-2">
                         </div>
@@ -104,7 +104,7 @@
                        </div>
                     </div> <!--End of 2nd feature-->
 
-                    <div class="flex justify-center rounded p-3" style="background-color:#2D2B29;"> <!--3rd feature-->
+                    <div class="service-card" style="background-color:#2D2B29;"> <!--3rd feature-->
                         <div class="bg-dark-500">
                             <img class="w-34 mr-4 rounded-lg" src="images/Menu.png" alt="Menu">
                         </div>
@@ -115,7 +115,7 @@
                        </div>
                     </div> <!--End of 3rd feature-->
 
-                    <div class="flex justify-center rounded p-3" style="background-color:#2D2B29;"> <!--4th feature-->
+                    <div class="service-card" style="background-color:#2D2B29;"> <!--4th feature-->
                         <div class="bg-dark-500">
                             <img class="w-34 mr-4 rounded-lg" src="images/Frame-1.png" alt="Frame-1">
                         </div>
@@ -126,7 +126,7 @@
                        </div>
                     </div> <!--End of 4th feature-->
 
-                    <div class="flex justify-center rounded p-3" style="background-color:#2D2B29;"> <!--5th feature-->
+                    <div class="service-card" style="background-color:#2D2B29;"> <!--5th feature-->
                         <div class=" ">
                             <img class="w-34 mr-4 rounded-lg " src="images/Folder.png" alt="Folder">
                         </div>
@@ -137,7 +137,7 @@
                        </div>
                     </div> <!--End of 5th feature-->
 
-                    <div class="flex justify-center rounded p-3" style="background-color:#2D2B29;"> <!--6th feature-->
+                    <div class="service-card" style="background-color:#2D2B29;"> <!--6th feature-->
                         <div class="bg-dark-500">
                             <img class="w-34 mr-4 rounded-lg" src="images/Frame-5.png" alt="Frame-5">
                         </div>
@@ -166,27 +166,27 @@
                 </div>
 
                 <div class="mt-10 grid md:grid-cols-3 gap-5 justify-center">
-                    <div>
+                    <div class="portfolio-card">
                         <img src="images/image-1.png" alt="image-1">
                     </div>
 
-                    <div>
+                    <div class="portfolio-card">
                         <img src="images/image-2.png" alt="image-2">
                     </div>
 
-                    <div>
+                    <div class="portfolio-card">
                         <img src="images/image-3.png" alt="image-3">
                     </div>
 
-                    <div>
+                    <div class="portfolio-card">
                         <img src="images/image-4.png" alt="image-4">
                     </div>
 
-                    <div>
+                    <div class="portfolio-card">
                         <img src="images/image-5.png" alt="image-5">
                     </div>
 
-                    <div>
+                    <div class="portfolio-card">
                         <img src="images/image-6.png" alt="image-6">
                     </div>
                    
@@ -208,7 +208,7 @@
 
                 <div class="mt-10 grid md:grid-cols-2 gap-2">
 
-                    <div  class="bg-dark-500 rounded p-5 h-30 "  style="background-color:#2D2B29; ">
+                    <div  class="bg-dark-500 rounded p-5 h-30 customers-card"  style="background-color:#2D2B29; ">
                         <p class="text-white text-xs" >I”ve treid honestly to help Jason but he”s still a FOOL</p>
 
                         <div class="flex justify-start mt-4"> 
@@ -225,7 +225,7 @@
 
                     </div>
 
-                    <div  class="bg-dark-500 rounded p-5 h-30 "  style="background-color:#2D2B29; ">
+                    <div  class="bg-dark-500 rounded p-5 h-30 customers-card"  style="background-color:#2D2B29; ">
                         <p class="text-white text-xs" >I dont believe in GOD but i beleive in Jason</p>
 
                         <div class="flex justify-start mt-4"> 
@@ -242,7 +242,7 @@
 
                     </div>
                     
-                    <div  class="bg-dark-500 rounded p-5 h-30 "  style="background-color:#2D2B29; ">
+                    <div  class="bg-dark-500 rounded p-5 h-30 customers-card"  style="background-color:#2D2B29; ">
                         <p class="text-white text-xs" >Wish we were in anime world to injure him.</p>
 
                         <div class="flex justify-start mt-4"> 
@@ -259,7 +259,7 @@
 
                     </div>
 
-                    <div  class="bg-dark-500 rounded p-5 h-30 "  style="background-color:#2D2B29; ">
+                    <div  class="bg-dark-500 rounded p-5 h-30 customers-card "  style="background-color:#2D2B29; ">
                         <p class="text-white text-xs" >I know a guy who knows a guy that knows a guy who’s smooth with women.</p>
 
                         <div class="flex justify-start mt-4"> 
@@ -307,7 +307,7 @@
                     <input class="w-full rounded p-2 text-sm" type="text" placeholder="Enter Your Name" style="background-color:#21201c ; border: 1px solid gray; color:#96968B;">
                 </div>
 
-                <button class="text-white p-2 mt-6 rounded" style="background-color:#FEA809;">Send Message</button>
+                <button class="text-white p-2 mt-6 rounded  transition duration-500 ease-in-out hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110 " >Send Message</button>
 
 
             </section> <!--End of 5th Section-->
@@ -320,13 +320,13 @@
 
     <footer class="text-center mt-32">
         <div class="flex justify-center">
-            <a href="#spotify">  <img class="w-14 p-2" src="images/spotify.png" alt="spotify">  </a> 
-            <a href="#instagram">  <img class="w-14 p-2" src="images/instagram.png" alt="instagram">  </a> 
-            <a href="#wechat">  <img class="w-14 p-2" src="images/wechat.png" alt="wechat">  </a> 
-            <a href="#facebook">  <img class="w-14 p-2" src="images/facebook.png" alt="facebook">  </a>
-            <a href="#pinterest">  <img class="w-14 p-2" src="images/pinterest.png" alt="pinterest">  </a> 
-            <a href="#googlePlus">  <img class="w-14 p-2" src="images/googleplus.png" alt="google-plus">  </a> 
-            <a href="#linkedin">  <img class="w-14 p-2" src="images/linkedlin.png" alt="linkedin">  </a> 
+            <a href="#spotify">  <img class="w-14 p-2 footer-links" src="images/spotify.png" alt="spotify">  </a> 
+            <a href="#instagram">  <img class="w-14 p-2 footer-links" src="images/instagram.png" alt="instagram">  </a> 
+            <a href="#wechat">  <img class="w-14 p-2 footer-links" src="images/wechat.png" alt="wechat">  </a> 
+            <a href="#facebook">  <img class="w-14 p-2 footer-links" src="images/facebook.png" alt="facebook">  </a>
+            <a href="#pinterest">  <img class="w-14 p-2 footer-links" src="images/pinterest.png" alt="pinterest">  </a> 
+            <a href="#googlePlus">  <img class="w-14 p-2 footer-links" src="images/googleplus.png" alt="google-plus">  </a> 
+            <a href="#linkedin">  <img class="w-14 p-2 footer-links" src="images/linkedlin.png" alt="linkedin">  </a> 
 
         </div>
       
