@@ -12,21 +12,25 @@ body{
     padding: 0 7%;
 	background-color: #21201c ;
 }
+.ul-color{
+	background-color: #21201c ;
+}
 button{
 	background-color:#FEA809;
 }
 .float{
     position:fixed;
-	width:40px;
-	height:40px;
-	bottom:40px;
+	width:30px;
+	height:30px;
+	bottom:80px;
 	right:40px;
 	border-radius:50px;
+	z-index: 1;
 }
 /* transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 */
 
 .list{
-	@apply transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
+	@apply mx-4 my-6 md:my-0 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110;
 }
 .service-card{
 	@apply flex justify-center rounded p-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105;
